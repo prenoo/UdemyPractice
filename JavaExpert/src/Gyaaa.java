@@ -1,10 +1,9 @@
-import java.sql.SQLOutput;
-import java.util.Iterator;
+/*import java.util.Iterator;
 import java.util.LinkedList;
 
 public class Gyaaa {
 
-    public static void main(String[] args)  {
+   public static void main(String[] args)  {
 
         LinkedList<String> names = new LinkedList<String>();
         names.push("Caleb");
@@ -24,4 +23,4 @@ public class Gyaaa {
     }
 
 
-}
+}*/

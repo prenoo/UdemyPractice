@@ -31,7 +31,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.MultiArray">
     <configuration name="Gyaaa" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Gyaaa" />
       <module name="JavaExpert" />
@@ -39,8 +39,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MultiArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MultiArray" />
+      <module name="JavaExpert" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MultiArray" />
         <item itemvalue="Application.Gyaaa" />
       </list>
     </recent_temporary>
@@ -52,7 +60,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1580127736548</updated>
-      <workItem from="1580127738108" duration="6519000" />
+      <workItem from="1580127738108" duration="8801000" />
     </task>
     <servers />
   </component>
