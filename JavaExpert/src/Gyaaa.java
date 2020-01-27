@@ -1,25 +1,27 @@
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Scanner;
+import java.sql.SQLOutput;
+import java.util.Iterator;
+import java.util.LinkedList;
 
 public class Gyaaa {
 
-    public static void main(String[] args) throws FileNotFoundException {
-        Scanner in = new Scanner(new File("test.txt"));
+    public static void main(String[] args)  {
 
-        List<String> students = new ArrayList<String>();
+        LinkedList<String> names = new LinkedList<String>();
+        names.push("Caleb");
+        names.push("Sue");
+        names.push("Sally");
 
-        while(in.hasNextLine()) {
-            students.add(in.nextLine());
-        }
+        Iterator<String> it = names.iterator();
 
-        for(int i = 0; i < students.size();i++) {
-            System.out.println("Name: " + students.get(i));
-        }
+        while(it.hasNext())
+            System.out.println(it.next());
 
-        in.close();
+        names.add(3, "Susan");
 
+
+        for(String s : names)
+            System.out.println(s);
     }
+
+
 }
